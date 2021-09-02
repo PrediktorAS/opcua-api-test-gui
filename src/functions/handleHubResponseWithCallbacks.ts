@@ -31,7 +31,7 @@ export function handleHubResponseWithCallbacks (
 				}
 
 				setTimeout(() => {
-					location.reload(true);
+					location.reload();
 				}, 5000);
 			} else {
 				if (messagesVisible) {

@@ -7,3 +7,7 @@ To run this GUI:
 3. From the command prompt, run "npm install";
 4. Run "npm run start";
 5. The gui should appear in your browser on http://localhost:3000
+
+The relevant API calls are made in the file \src\screens\OpcUaBrowser\OpcUaBrowser.tsx
+
+These calls are routed through the functions found under \src\functions to the API.
